@@ -5,15 +5,15 @@ import { useNavigate } from 'react-router-dom';
 // import backgroundImage from '/home/imran/phse4/Shopify/src/assets/shopi2.avif'; // replace with your image path
 
 // Define a styled-component for the background
-const Background = styled.div`
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${backgroundImage});
-  background-size: cover;
-  background-position: center;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e2e8f0;
-`;
+// const Background = styled.div`
+//   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${backgroundImage});
+//   background-size: cover;
+//   background-position: center;
+//   padding: 8px;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   border: 1px solid #e2e8f0;
+// `;
 
 function ProductDetail({ product, addToCart, removeLastFromCart }) {
   const [selectedColor, setSelectedColor] = useState('red');
