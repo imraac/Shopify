@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { HeartIcon } from '@heroicons/react/24/outline';
 import { useNavigate } from 'react-router-dom';
-import backgroundImage from '/home/imran/phse4/Shopify/src/assets/shopi2.avif'; // replace with your image path
+// import backgroundImage from '/home/imran/phse4/Shopify/src/assets/shopi2.avif'; // replace with your image path
 
 // Define a styled-component for the background
 const Background = styled.div`
